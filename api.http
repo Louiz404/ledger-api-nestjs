@@ -1,0 +1,20 @@
+### 1. Criar uma Conta (Luiz)
+POST http://localhost:3000/accounts
+Content-Type: application/json
+
+{
+  "ownerName": "Luiz Canziani",
+  "initialBalance": 5000
+}
+
+### 2. Criar outra Conta (Tiffany)
+POST http://localhost:3000/accounts
+Content-Type: application/json
+
+{
+  "ownerName": "Tiffany",
+  "initialBalance": 10000
+}
+
+### 3. Listar todas as contas
+GET http://localhost:3000/accounts
